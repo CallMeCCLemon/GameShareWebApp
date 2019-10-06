@@ -1,0 +1,38 @@
+{
+  "name": "GameShareWebApp",
+  "version": "1.0.0",
+  "description": "Starting project for GameShare Idea",
+  "main": "index.js",
+  "repository": "https://github.com/CallMeCCLemon/GameShareWebApp",
+  "author": "Thomas Littlejohn <thomas.e.littlejohn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "babel-loader": "^8.0.6",
+    "jss": "^10.0.0",
+    "next": "^9.0.8",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-jss": "^10.0.0",
+    "styled-jsx": "^3.2.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0"
+  }
+}
