@@ -1,0 +1,34 @@
+type Game @model {
+	id: ID!
+	title: String!
+	description: String!
+	rating: Float
+	releaseDate: AWSDateTime!
+	# listings: [Listing] @connection(name: "GameListings")
+	# genre: [Genre]
+}
+
+# type Listing @model @key(fields: ["gameID", "userID"]){
+# 	id: ID!
+# 	price: Float!
+# 	gameID: Game @connection(name: "GameListings")
+# 	userID: User @connection(name: "UserListings")
+# }
+
+type User @model @key(fields: ["email", "rating"]){
+	id: ID!
+	username: String!
+	email: String!
+	rating: Float!
+# 	listings: [Listing] @connection(name: "UserListings")
+# 	rentedItems: [Rental] @connection(name: "RentingUser")
+# 	ownedRentedItems: [Rental] @connection(name: "LendingUser")
+}
+
+# type Rental @model @key(fields: ["renter", "owner"]){
+# 	id: ID!
+# 	# status: RentalStatus!
+# 	deliveryDate: AWSDateTime
+# 	renter: User @connection(name: "RentingUser")
+# 	owner: User @connection(name: "LendingUser")
+# }

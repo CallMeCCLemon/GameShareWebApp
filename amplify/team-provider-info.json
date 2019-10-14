@@ -1,0 +1,14 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "gamesharewebapp-production-20191008192746-authRole",
+            "UnauthRoleArn": "arn:aws:iam::139054167618:role/gamesharewebapp-production-20191008192746-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::139054167618:role/gamesharewebapp-production-20191008192746-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "gamesharewebapp-production-20191008192746-deployment",
+            "UnauthRoleName": "gamesharewebapp-production-20191008192746-unauthRole",
+            "StackName": "gamesharewebapp-production-20191008192746",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:139054167618:stack/gamesharewebapp-production-20191008192746/451b2f80-e9b6-11e9-b6ae-0a1d3b063294"
+        }
+    }
+}
